@@ -16,7 +16,7 @@ pipeline
         {
             steps
             {
-                sh './hello_exe'
+                sh './hello_exec'
                 echo 'test stage successful'
             }
         }
